@@ -1,0 +1,504 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+    scroll-behavior: smooth;
+}
+.btn-black {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #2E1D03;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2E1D03;
+}
+
+.btn-trans {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:
+rgba(46, 29, 3, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid
+rgba(46, 29, 3, 1);
+}
+.btn-wheat {
+    border: 2px solid #FAF3DD;
+    background-color: #FAF3DD;
+    border-radius: 10px;
+    width: 90%;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+body {
+
+    color: #2E1D03;
+    background-color: #FAF3DD;
+    /* height: 500px; */
+}
+/* header section */
+.navigation {
+    position: fixed;
+    top: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.nav-logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+.nav-logo h4 {
+    padding-left: 5px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 3%;
+
+}
+.nav-links a {
+    color: #817B74;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.25);
+/* glassmorph */
+
+backdrop-filter: blur(15px);
+}
+.nav-links a:hover {
+    color: #2E1D03;
+}
+.nav-links .home {
+    color: #2E1D03;
+}
+.first-section {
+    display: flex;
+
+
+}
+.first-left-div {
+    width: 50%;
+
+    padding-top: 100px;
+    padding-left: 3%;
+    padding-bottom: 130px;
+}
+.first-left-div h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 10px; */
+
+
+}
+.black-coffee {
+    padding-bottom: 30px;
+}
+.h21 {
+    opacity: 0.1;
+}
+.h23 {
+    opacity: 0.05;
+}
+.first-left-div p {
+    padding-bottom: 30px;
+    width: 80%;
+    font-size: 15px;
+}
+.first-left-div button {
+    font-size: 10px;
+}
+.right {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 7px;
+    margin-left: 7px;
+}
+.first-right-div {
+    background-image: url('./coffee\ latter\ 1Coffee\ latter.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding-bottom: 40px;
+    right: 0;
+
+}
+
+/* cravings */
+.cravings {
+    background-image: url('./coffee\ patter\ 1\ \(2\).png');
+
+    padding: 3%;
+}
+.inner-cravings {
+    background-color: white;
+    border: 3px solid white;
+
+    padding: 20px 0;
+    border-radius: 20px;
+    display: flex;
+}
+.inner1 {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.inner-cravings h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.inner-cravings h6 {
+    padding-bottom: 30px;
+}
+.inner2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+.coff {
+    /* border: 3px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* width: 50px; */
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.coff img {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.btn-wheat h6 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0 0;
+    align-items: center;
+    font-size: 7px;
+    justify-content: center;
+
+}
+.btn-wheat nav {
+    font-size: 12px;
+}
+.btn-wheat i {
+    border: 3px solid #2E1D03;
+    cursor: pointer;
+    background-color: #2E1D03;
+    border-radius: 50%;
+    padding: 2px;
+    color: white;
+
+}
+/* about us */
+#about-us {
+    padding: 25px 3% 25px 3%;
+}
+.abt-us {
+    text-align: center;
+}
+.abt-us h2 {
+    font-size: 40px;
+
+}
+.hr {
+    border: 1px solid #2E1D03;
+    width: 15px;
+    height: 1px;
+
+}
+.hr-h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.hr-h6 h6 {
+    font-size: 9px;
+    padding-left: 5px;
+}
+
+#about-us .abt-us-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.abt-us-content div {
+    width: 40%;
+    padding: 15px 5% 0px 0;
+}
+
+.abt-us-content h2 {
+    font-size: 35px;
+    color: #817B74;
+    padding-bottom: 25px;
+
+}
+.abt-us-content p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.abt-us-content img {
+
+    height: 270px;
+}
+.abt-us-content2 {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abt-us-content4 {
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: end;
+}
+.abt-us-content4 button {
+    text-align: right;
+}
+
+/* testimonials */
+.testimonials {
+    background-image: url('./coffee\ patter\ 1\ \(2\).png');
+
+    padding: 30px 3%;
+    position: absolute;
+    width: 100%;
+    height: 540px;
+}
+.testimonials h2 {
+    color: #2E1D03;
+    font-size: 40px;
+}
+.tests {
+    width: 40%;
+
+
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25);
+
+/* Glass effect */
+
+box-shadow: 0px 4px 28px rgba(17, 87, 192, 0.05);
+backdrop-filter: blur(20px);
+
+padding: 20px 20px;
+}
+.test1 {
+    position: absolute;
+    left: 45%;
+    top: 100px;
+
+}
+.commentor {
+    display: flex;
+    align-items: center;
+}
+.commentor .comm-img {
+    height: 40px;
+    width: 40px;
+}
+.commentor nav {
+    padding-left: 15px;
+}
+.commentor h6 {
+    font-size: 15px;
+}
+.commentor h5 {
+    font-size: 10px;
+}
+.quotes {
+    padding-left: 60%;
+}
+.tests p{
+    font-size: 13px;
+    padding-top: 25px;
+}
+.test2 {
+    position: absolute;
+    top: 175px;
+    left: 15%;
+
+
+}.test3{
+    position: absolute;
+    top: 310px;
+    left: 40%;
+}
+.img1 {
+    width: 30%;
+    position: absolute;
+    top: 155px;
+    height: 200px;
+    background-image: url('./coffee\ bean\ lot\ 2.png');
+
+    background-size: cover;
+    left: 70%;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.img2 {
+    width: 30%;
+    position: absolute;
+    top: 270px;
+    height: 250px;
+    background-image: url('./coffee\ bean\ lot\ 1\ \(1\).png');
+
+    background-size: cover;
+    left: 0;
+
+}
+/* BLOG */
+.blog {
+    padding: 600px 3% 30px 3%;
+}
+.blog h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.inner-blog {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+}
+.blogs {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+
+   padding: 15px;
+   border-radius: 10px;
+
+
+    /* align-items: center; */
+}
+.blogs img {
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.blogs h3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.blogs p {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.inner-blog3 h3 {
+    padding-bottom: 50px;
+}
+.btn-trans i {
+    border: 2px solid
+rgba(46, 29, 3, 1);
+}
+
+/* footer */
+section {
+    background-image: url('./coffee\ patter\ 211.png');
+    display: flex;
+    padding: 20px 3%;
+}
+.sections {
+    width: 50%;
+    padding: 55px 3%;
+
+
+
+
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.sections .btn-black {
+    width: 30%;
+}
+.first-h6, .second-h6{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+
+}
+.first-section a {
+    display: block;
+}
+.section1 .first-h6 {
+    padding-top: 30px;
+}
+ .section1 .second-h6 {
+    padding-top: 33px;
+ }
+.first-h6 h6, .second-h6 h6 {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.first-h6 a,.second-h6 a {
+    text-decoration: none;
+    color: #817B74;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.h6-links {
+    display: flex;
+}
+.section2 {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.section2 h2 {
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+.section2 p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+}
+footer p{
+    font-size: 13px;
+}
